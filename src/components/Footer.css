@@ -1,0 +1,2 @@
+.footer { padding: 1.5rem var(--page-gutter); background: var(--ink); color: #fff; text-align: center; }
+.footer p { margin: 0; }

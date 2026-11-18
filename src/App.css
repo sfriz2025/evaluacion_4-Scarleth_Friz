@@ -1,0 +1,6 @@
+.app { min-height: 100vh; display: flex; flex-direction: column; background: var(--page); color: var(--ink); }
+.main { width: min(100%, 72rem); flex: 1; margin-inline: auto; padding: 0 var(--page-gutter) 2rem; }
+.main:focus { outline: none; }
+.skip-link { position: absolute; z-index: 10; top: -5rem; left: 0.5rem; padding: 0.5rem 1rem; border: 0; border-radius: 0.5rem; background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+.skip-link:focus { top: 0.5rem; }
+.page-section { padding-block: clamp(2rem, 5vw, 3.5rem); border-bottom: 1px solid var(--border); }
