@@ -1,0 +1,6 @@
+.form { max-width: 36rem; padding: 1.5rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow-soft); }
+.form__field { display: grid; gap: 0.35rem; margin-bottom: 1rem; }
+.form__label { font-weight: 650; }
+.form__input { width: 100%; padding: 0.7rem 0.75rem; border: 1px solid #8996aa; border-radius: 0.45rem; background: var(--surface); color: var(--ink); font: inherit; }
+.form__input:focus { border-color: var(--accent); outline: 0; box-shadow: 0 0 0 3px rgb(29 78 216 / 15%); }
+.form__notice { margin-top: 1rem; }
