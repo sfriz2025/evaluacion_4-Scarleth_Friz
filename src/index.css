@@ -1,0 +1,10 @@
+:root { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--ink); background: var(--page); font-synthesis: none; text-rendering: optimizeLegibility; --ink: #14213d; --page: #f3f6fb; --surface: #fff; --accent: #1d4ed8; --accent-hover: #1e40af; --muted: #465570; --border: #d8e0ec; --hero-tint: #edf3ff; --radius: 1rem; --page-gutter: clamp(1rem, 4vw, 2rem); --shadow: 0 12px 32px rgb(20 33 61 / 8%); --shadow-soft: 0 4px 16px rgb(20 33 61 / 5%); }
+[data-theme="dark"] { color-scheme: dark; --ink: #e8edf7; --page: #111827; --surface: #1f2937; --accent: #93c5fd; --accent-hover: #bfdbfe; --muted: #c3ccdc; --border: #46546a; --hero-tint: #26354d; }
+*, *::before, *::after { box-sizing: border-box; }
+body { min-width: 320px; margin: 0; background: var(--page); color: var(--ink); line-height: 1.7; }
+img { display: block; max-width: 100%; height: auto; }
+h1, h2, h3 { margin: 0 0 0.75rem; font-weight: 750; letter-spacing: -0.03em; line-height: 1.2; }
+p { margin: 0 0 1rem; }
+a { color: var(--accent); text-underline-offset: 0.2em; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; } }

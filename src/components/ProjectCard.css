@@ -1,0 +1,7 @@
+.project-card { display: flex; min-width: 0; flex-direction: column; align-items: flex-start; gap: 0.7rem; padding: 1.35rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow-soft); }
+.project-card__title { margin: 0; font-size: 1.2rem; }
+.project-card__title a { color: inherit; text-decoration: none; }
+.project-card__title a:hover { text-decoration: underline; }
+.project-card__description { flex-grow: 1; color: var(--muted); }
+.project-card__tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0; padding: 0; list-style: none; }
+.project-card__tag { padding: 0.15rem 0.6rem; border: 1px solid var(--border); border-radius: 999px; color: var(--muted); font-size: 0.85rem; }

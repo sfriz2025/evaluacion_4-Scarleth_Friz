@@ -1,0 +1,6 @@
+.hero { display: grid; align-items: center; gap: clamp(1.5rem, 4vw, 3rem); margin-block: 1.5rem; padding: clamp(1.5rem, 4vw, 3rem); border: 1px solid var(--border); border-radius: var(--radius); background: linear-gradient(135deg, var(--surface), var(--hero-tint)); box-shadow: var(--shadow); }
+.hero__image { width: min(100%, 16rem); aspect-ratio: 1; justify-self: center; border: 5px solid var(--surface); border-radius: 50%; object-fit: cover; box-shadow: var(--shadow); }
+.hero__title { margin-bottom: 1rem; font-size: clamp(2.25rem, 1.5rem + 3vw, 3.2rem); }
+.hero__lead { color: var(--muted); font-size: 1.15rem; }
+@media (min-width: 768px) { .hero { grid-template-columns: 12rem 1fr; } .hero__image { justify-self: start; } }
+@media (min-width: 1024px) { .hero { grid-template-columns: 16rem 1fr; } }

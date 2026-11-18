@@ -1,0 +1,3 @@
+.button { display: inline-block; padding: 0.7rem 1.15rem; border: 0; border-radius: 0.55rem; background: var(--accent); color: #fff; font: inherit; font-weight: 650; text-align: center; text-decoration: none; cursor: pointer; }
+.button:hover { background: var(--accent-hover); color: #fff; }
+.button--secondary { padding: 0.4rem 0.7rem; border: 1px solid rgb(255 255 255 / 45%); background: transparent; }
